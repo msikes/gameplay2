@@ -1,0 +1,13 @@
+call of duty: crappy flixel starter call
+
+add two randomly placed guy (call of duty graphics? lol), you control the bullet origin of the player, whoever hits the opposing guy first gains a point
+
+private var x:Int;
+ private var y :Int;
+ private var x2:Int;
+ private var y2:Int;
+ 
+ x =  Std.random(320);
+  y = Std.random(240);
+  x2 = Std.random(320) + 320;
+  y2 = Std.random(240) + 240;
