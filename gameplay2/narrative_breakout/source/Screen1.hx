@@ -82,12 +82,27 @@ class Screen1 extends FlxState {
 
 	override public function update():Void {
 		
-		if ((FlxG.overlap(p1, ball) == true) || (FlxG.overlap(p1, ball2) == true) || (FlxG.overlap(p1, ball3) == true)) {
+		if (FlxG.overlap(p1, ball) == true) {
 			ball.directionY = -1;
 			ball.directionX = -1;
 			ball.speedX += 10;
 			ball.speedY += 10;
 		}
+		
+		if (FlxG.overlap(p1, ball2) == true) {
+				ball.directionY = -1;
+			ball.directionX = -1;
+			ball.speedX += 10;
+			ball.speedY += 10;
+		}
+		
+			if (FlxG.overlap(p1, ball3) == true) {
+			ball.directionY = -1;
+			ball.directionX = -1;
+			ball.speedX += 10;
+			ball.speedY += 10;
+		}
+		
 		if (ball.done == true) {
 			ballRed.kill();
 			ball.kill();
@@ -109,44 +124,44 @@ class Screen1 extends FlxState {
 		}
 		
 		if ((FlxG.overlap(block, ball) == true) || (FlxG.overlap(block, ball2) == true) || (FlxG.overlap(block, ball3) == true)) {
-			ball.directionY = -1;
-			ball.directionX = -1;
+			/*ball.directionY = -1;
+			ball.directionX = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			block.kill();
 		}
 		if ((FlxG.overlap(block2, ball) == true) || (FlxG.overlap(block2, ball2) == true) || (FlxG.overlap(block2,ball3) == true)) {
-			ball.directionY = -1;
-			ball.directionX = -1;
+			/*ball.directionY = -1;
+			ball.directionX = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			block2.kill();
 		}
 			if ((FlxG.overlap(block3, ball) == true) || (FlxG.overlap(block3, ball2) == true) || (FlxG.overlap(block3,ball3) == true)) {
-			ball.directionY = -1;
-			ball.directionX = -1;
+			/*ball.directionY = -1;
+			ball.directionX = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			block3.kill();
 		}
 		
 	if ((FlxG.overlap(zubat, ball) == true) || (FlxG.overlap(zubat, ball2) == true) || (FlxG.overlap(zubat, ball3) == true)) {
-			ball.directionX = -1;
-			ball.directionY = -1;
+			/*ball.directionX = -1;
+			ball.directionY = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			zubat.kill();
 		}
 		if ((FlxG.overlap(zubat2, ball) == true) || (FlxG.overlap(zubat2, ball2) == true) || (FlxG.overlap(zubat2, ball3) == true)) {
-			ball.directionX = -1;
-			ball.directionY = -1;
+			/*ball.directionX = -1;
+			ball.directionY = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			zubat2.kill();
 		}
 			if ((FlxG.overlap(zubat3, ball) == true) || (FlxG.overlap(zubat3, ball2) == true) || (FlxG.overlap(zubat3, ball3) == true)) {
-			ball.directionX = -1;
-			ball.directionY = -1;
+			/*ball.directionX = -1;
+			ball.directionY = -1;*/
 			ball.speedX += 10;
 			ball.speedY += 10;
 			zubat3.kill();

@@ -13,11 +13,11 @@ class Player1 extends FlxSprite {
 		
 		velocity.x = 0;
 		
-		if (FlxG.keys.LEFT == true) {
+		if ((FlxG.keys.LEFT == true) || (FlxG.keys.A == true)) {
 			velocity.x = -300;
 		}
 		
-		if (FlxG.keys.RIGHT == true) {
+		if ((FlxG.keys.RIGHT == true) || (FlxG.keys.D == true)) {
 			velocity.x = 300;
 		}
 		

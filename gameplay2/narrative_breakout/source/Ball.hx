@@ -27,7 +27,7 @@ class Ball extends FlxSprite {
 		}
 		
 		speedX = 250;
-		speedY = (FlxG.random() * 600) - 300;
+		speedY = (FlxG.random() * 600) - 150;
 		
 		done = false;
 	}

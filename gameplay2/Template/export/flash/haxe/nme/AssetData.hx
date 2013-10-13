@@ -20,16 +20,6 @@ class AssetData {
 			
 			className.set ("Beep", nme.NME_assets_data_beep_mp3);
 			type.set ("Beep", Reflect.field (AssetType, "sound".toUpperCase ()));
-			className.set ("assets/ball.png", nme.NME_assets_ball_png);
-			type.set ("assets/ball.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/ballgray.png", nme.NME_assets_ballgray_png);
-			type.set ("assets/ballgray.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/ballred.png", nme.NME_assets_ballred_png);
-			type.set ("assets/ballred.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/bg.png", nme.NME_assets_bg_png);
-			type.set ("assets/bg.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/bg_2.png", nme.NME_assets_bg_2_png);
-			type.set ("assets/bg_2.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/data/autotiles.png", nme.NME_assets_data_autotiles_png);
 			type.set ("assets/data/autotiles.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/data/autotiles_alt.png", nme.NME_assets_data_autotiles_alt_png);
@@ -102,14 +92,6 @@ class AssetData {
 			type.set ("assets/data/vis/bounds.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			className.set ("assets/HaxeFlixel.svg", nme.NME_assets_haxeflixel_svg);
 			type.set ("assets/HaxeFlixel.svg", Reflect.field (AssetType, "text".toUpperCase ()));
-			className.set ("assets/pikachu.png", nme.NME_assets_pikachu_png);
-			type.set ("assets/pikachu.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/player.png", nme.NME_assets_player_png);
-			type.set ("assets/player.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/player_1.png", nme.NME_assets_player_1_png);
-			type.set ("assets/player_1.png", Reflect.field (AssetType, "image".toUpperCase ()));
-			className.set ("assets/zubat.png", nme.NME_assets_zubat_png);
-			type.set ("assets/zubat.png", Reflect.field (AssetType, "image".toUpperCase ()));
 			
 			
 			initialized = true;
@@ -123,11 +105,6 @@ class AssetData {
 
 
 class NME_assets_data_beep_mp3 extends flash.media.Sound { }
-class NME_assets_ball_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_ballgray_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_ballred_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_bg_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_bg_2_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_autotiles_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_autotiles_alt_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_base_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
@@ -164,7 +141,3 @@ class NME_assets_data_vcr_step_png extends flash.display.BitmapData { public fun
 class NME_assets_data_vcr_stop_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_data_vis_bounds_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
 class NME_assets_haxeflixel_svg extends flash.utils.ByteArray { }
-class NME_assets_pikachu_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_player_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_player_1_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
-class NME_assets_zubat_png extends flash.display.BitmapData { public function new () { super (0, 0); } }
